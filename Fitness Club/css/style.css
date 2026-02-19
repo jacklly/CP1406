@@ -1,0 +1,24 @@
+/*
+Author: Jack Kelly
+Date: 19/2/26
+File Name: styles.css
+*/
+
+body {
+background-color: #ccc;
+}
+
+header {
+    width: 25%;
+    float: left;
+}
+
+nav {
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;
+}
+
+main {
+    clear: left;
+}
