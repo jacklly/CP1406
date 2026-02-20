@@ -1,0 +1,101 @@
+/*
+Author: Jack Kelly
+Date: 19/2/26
+File Name: styles.css
+*/
+
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+background-color: #5C6B9C;
+}
+
+header {
+    width: 25%;
+    float: left;
+    margin: 0 0 1em 0;
+}
+
+nav {
+    width: 70%;
+    float: left;
+    margin: 5em 3em 0 0;
+}
+
+main {
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.25em;
+    clear: left;
+}
+
+dl {
+    color: #000080;
+    font-weight: bold;
+}
+
+p, h1, h2, dl dt, ul, li{
+    color: #000080;
+    font-weight: lighter;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #FFFF00;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+#historyimage1 {
+    width: 25%;
+    float: right;
+}
+
+#history ul li ul li {
+    margin: 0 0 0 1em;
+}
+
+#team img {
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin: 1em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
