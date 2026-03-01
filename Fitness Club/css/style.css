@@ -10,6 +10,19 @@ body, header, nav, main, footer, h1, div, img, ul {
     border: 0;
 }
 
+.francois-one-regular {
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-slab-1 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
 background-color: #000;
 }
@@ -39,6 +52,7 @@ main {
     padding: 2%;
     font-size: 1.25em;
     clear: left;
+    font-family: 'Roboto Slab', serif;
 }
 
 #weights, #cardio, #training {
@@ -80,7 +94,7 @@ nav ul {
 
 nav li {
     font-size: 1.5em;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: 'Francois One', sans-serif;
     border-top: 1px solid #fff;
 }
 
