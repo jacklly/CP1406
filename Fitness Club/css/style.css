@@ -15,14 +15,23 @@ background-color: #000;
 }
 
 header {
-    width: 25%;
-    float: left;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 190px;
+}
+
+header img {
+    margin: 0 auto;
 }
 
 nav {
     width: 70%;
     float: right;
     margin: 5em 3em 0 0;
+    padding: 1%;
+    margin-bottom: 1%;
 }
 
 main {
@@ -66,15 +75,13 @@ main {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    text-align: right;
+    text-align: center;
 }
 
 nav li {
-    display: inline-block;
     font-size: 1.5em;
     font-family: Verdana, Arial, sans-serif;
-    font-weight: bold;
+    border-top: 1px solid #fff;
 }
 
 nav li a {
