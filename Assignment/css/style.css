@@ -4,6 +4,10 @@ body, header, nav, main, footer, h1, div, img, ul {
     border: 0;
 }
 
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 header {
     position: -webkit-sticky;
     position: sticky;
@@ -16,7 +20,6 @@ header {
 }
 
 header img {
-    display: block;
     margin: 0;
     max-width: 100%;
     height: 200px;
@@ -34,7 +37,6 @@ nav {
 }
 
 nav ul{
-    display: block;
     width: 80%;
     list-style-type: none;
     align-content: center;
@@ -43,13 +45,12 @@ nav ul{
 nav li {
     display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;
+    font-size: large;
 }
 
 nav li a {
     background-color: steelblue;
-    font-size: xx-large;
-    display: block;
+    font-size: large;
     color: #000;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -60,58 +61,93 @@ nav li a {
 }
 
 nav p {
-    font-size: x-large;
+    font-size: large;
     align-content: center;
-    display: block;
     float: right;
     width: 20%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #hero img {
-    display: block;
     width: 100%;
 }
 
 #intro {
-    border-right: 1px solid black;
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 1%;
     display: block;
-    width: 50%;
+    width: 48%;
     float: left;
 }
 
 #intro h1 {
+    display: block;
+    background-color: steelblue;
     text-align: center;
     font-size: xx-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #intro p{
-    margin-left: 50px;
     text-align: left;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #announcements {
+    margin-right: 1%;
     margin-top: 40px;
     margin-bottom: 40px;
-    display: block;
-    width: 49%;
+    width: 48%;
     float: right;
 }
 
 #announcements h1 {
+    background-color: steelblue;
     text-align: center;
     font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #announcements ul, p {
-    margin-left: 50px;
+    margin-left: 5%;
+    margin-right: 2%;
     font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#teaminfo h1 {
+    margin-left: 10%;
+    width: 90%;
+    font-size: xx-large;
+}
+
+#teaminfo dd {
+    margin-bottom: 20px;
+    margin-left: 5%;
+    background-color: steelblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    width: 90%;
+    border-top: 1px solid black;
+    clear: both;
+}
+
+#teaminfo img {
+    margin-left: 5%;
+    margin-right: 2%;
+    max-width: 28%;
+    height: auto;
+    float: left;
+    margin-bottom: 40px;
+}
+
+#teaminfo dt {
+    width: 60%;
+    margin-right: 5%;
+    height: auto;
+    float: right;
+    font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
