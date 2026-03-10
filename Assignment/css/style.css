@@ -46,6 +46,7 @@ nav li {
     display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
+    color: steelblue;
 }
 
 nav li a {
@@ -76,13 +77,11 @@ nav p {
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 1%;
-    display: block;
     width: 48%;
     float: left;
 }
 
 #intro h1 {
-    display: block;
     background-color: steelblue;
     text-align: center;
     font-size: xx-large;
@@ -90,7 +89,7 @@ nav p {
 
 #intro p{
     text-align: left;
-    font-size: large;
+    font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -112,7 +111,7 @@ nav p {
 #announcements ul, p {
     margin-left: 5%;
     margin-right: 2%;
-    font-size: large;
+    font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -153,9 +152,9 @@ nav p {
 
 footer {
     width: 100%;
-    display: block;
     background-color: steelblue;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
     clear: both;
 }
