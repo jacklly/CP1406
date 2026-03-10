@@ -47,10 +47,10 @@ nav li {
 }
 
 nav li a {
-    font-size: large;
+    background-color: steelblue;
+    font-size: xx-large;
     display: block;
     color: #000;
-    text-align: center;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     padding-left: 1em;
@@ -60,12 +60,11 @@ nav li a {
 }
 
 nav p {
+    font-size: x-large;
     align-content: center;
     display: block;
-    text-align: center;
     float: right;
     width: 20%;
-    align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -75,6 +74,9 @@ nav p {
 }
 
 #intro {
+    border-right: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: block;
     width: 50%;
     float: left;
@@ -94,8 +96,10 @@ nav p {
 }
 
 #announcements {
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: block;
-    width: 50%;
+    width: 49%;
     float: right;
 }
 
@@ -105,7 +109,7 @@ nav p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#announcements ul {
+#announcements ul, p {
     margin-left: 50px;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -114,7 +118,7 @@ nav p {
 footer {
     width: 100%;
     display: block;
-    background-color: lightblue;
+    background-color: steelblue;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     clear: both;
