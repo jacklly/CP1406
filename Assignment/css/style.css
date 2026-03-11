@@ -153,8 +153,7 @@ nav p {
 }
 
 #whyinfo li {
-    max-width: fit-content;
-    background-color: steelblue;
+    color: steelblue;
     font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
