@@ -17,6 +17,7 @@ header {
     float: left;
     width: 20%;
     display: flex;
+    border-bottom: 1px solid black;
 }
 
 header img {
@@ -26,6 +27,7 @@ header img {
 }
 
 nav {
+    border-bottom: 1px solid black;
     height: 200px;
     position: -webkit-sticky;
     position: sticky;
@@ -148,6 +150,51 @@ nav p {
     float: right;
     font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#whyinfo li {
+    max-width: fit-content;
+    background-color: steelblue;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#whyinfo p {
+    margin-left: 2%;
+}
+
+#whyinfo h1 {
+    margin-left: 1%;
+    background-color: steelblue;
+}
+
+#articles h1 {
+    background-color: steelblue;
+    margin-left: 1%;
+}
+
+#articles ul{
+    list-style: none;
+    margin-left: 1%;
+}
+
+#articles li {
+    vertical-align: top;
+    display: inline-block;
+    max-width: 22%;
+    margin: 1%;
+}
+
+#articles a {
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+#articles img {
+    max-width: 100%;
+    border: 1px solid black;
 }
 
 footer {
