@@ -123,6 +123,10 @@ nav p {
     font-size: xx-large;
 }
 
+#teaminfo h1 a {
+    background-color: greenyellow;
+}
+
 #teaminfo dd {
     margin-bottom: 20px;
     margin-left: 5%;
@@ -135,6 +139,7 @@ nav p {
 }
 
 #teaminfo img {
+    border: 1px solid black;
     margin-left: 5%;
     margin-right: 2%;
     max-width: 28%;
@@ -144,7 +149,7 @@ nav p {
 }
 
 #teaminfo dt {
-    width: 60%;
+    width: 59%;
     margin-right: 5%;
     height: auto;
     float: right;
@@ -193,6 +198,55 @@ nav p {
 
 #articles img {
     max-width: 100%;
+    border: 1px solid black;
+}
+
+#treat h1 {
+    font-size: xx-large;
+    background-color: steelblue;
+    margin-left: 1%;
+}
+
+#treat h2 {
+    font-size: xx-large;
+    background-color: steelblue;
+    margin-left: 1%;
+}
+
+#treat dl {
+    border-bottom: 1px solid black;
+    overflow: auto;
+}
+
+#treat dd {
+    color: steelblue;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+#treat dt {
+    margin-bottom: 1%;
+    margin-left: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+#treat p {
+    clear: both;
+    font-size: x-large;
+    margin-left: 2%;
+}
+
+#treat p a {
+    font-size: xx-large;
+    background-color: greenyellow;
+}
+
+#treat dl img {
+    float: right;
+    max-width: 40%;
     border: 1px solid black;
 }
 
