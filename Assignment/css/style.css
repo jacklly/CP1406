@@ -250,6 +250,22 @@ nav p {
     border: 1px solid black;
 }
 
+#deals h2 {
+    margin-left: 3%;
+    color: steelblue;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#deals h1, #trading h1, #contact h1 {
+    margin-left: 1%;
+    background-color: steelblue;
+}
+
+#deals p, #trading p, #contact p {
+    margin-left: 2%;
+}
+
 footer {
     width: 100%;
     background-color: steelblue;
