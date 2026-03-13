@@ -128,17 +128,14 @@ nav p {
 }
 
 #teaminfo dd {
-    margin-bottom: 20px;
-    margin-left: 5%;
-    background-color: steelblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;
     width: 90%;
-    border-top: 1px solid black;
-    clear: both;
+    margin-right: 5%;
+    height: auto;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#teaminfo img {
+#teaminfo dd img {
     border: 1px solid black;
     margin-left: 5%;
     margin-right: 2%;
@@ -149,22 +146,25 @@ nav p {
 }
 
 #teaminfo dt {
-    width: 59%;
-    margin-right: 5%;
-    height: auto;
-    float: right;
-    font-size: xx-large;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    background-color: steelblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    width: 90%;
+    border-top: 1px solid black;
+    clear: both;
 }
 
 #whyinfo li {
     color: steelblue;
     font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1%;
 }
 
-#whyinfo p {
-    margin-left: 2%;
+#whyinfo a {
+    color: #000;
 }
 
 #whyinfo h1 {
@@ -211,6 +211,7 @@ nav p {
     font-size: xx-large;
     background-color: steelblue;
     margin-left: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #treat dl {
@@ -219,18 +220,18 @@ nav p {
 }
 
 #treat dd {
-    color: steelblue;
-    margin-left: 2%;
     margin-bottom: 1%;
+    margin-left: 1%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
 }
 
 #treat dt {
+    color: steelblue;
+    margin-left: 2%;
     margin-bottom: 1%;
-    margin-left: 1%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
+    font-size: x-large;   
 }
 
 #treat p {
@@ -244,7 +245,7 @@ nav p {
     background-color: greenyellow;
 }
 
-#treat dl img {
+#treat dt img {
     float: right;
     max-width: 40%;
     border: 1px solid black;
