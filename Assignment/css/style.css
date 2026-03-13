@@ -4,7 +4,7 @@ body, header, nav, main, footer, h1, div, img, ul {
     border: 0;
 }
 
-h1 {
+h1, h2, p, a, ul, ol, dl {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -46,7 +46,6 @@ nav ul{
 
 nav li {
     display: inline-block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
     color: steelblue;
 }
@@ -60,7 +59,6 @@ nav li a {
     padding-left: 1em;
     padding-right: 1em;
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav p {
@@ -68,7 +66,6 @@ nav p {
     align-content: center;
     float: right;
     width: 20%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #hero img {
@@ -92,7 +89,6 @@ nav p {
 #intro p{
     text-align: left;
     font-size: x-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #announcements {
@@ -107,14 +103,12 @@ nav p {
     background-color: steelblue;
     text-align: center;
     font-size: xx-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #announcements ul, p {
     margin-left: 5%;
     margin-right: 2%;
     font-size: x-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #teaminfo h1 {
@@ -132,7 +126,6 @@ nav p {
     margin-right: 5%;
     height: auto;
     font-size: xx-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #teaminfo dd img {
@@ -149,7 +142,6 @@ nav p {
     margin-bottom: 20px;
     margin-left: 5%;
     background-color: steelblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
     width: 90%;
     border-top: 1px solid black;
@@ -159,7 +151,6 @@ nav p {
 #whyinfo li {
     color: steelblue;
     font-size: x-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 1%;
 }
 
@@ -191,7 +182,6 @@ nav p {
 
 #articles a {
     display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
     text-align: center;
 }
@@ -203,15 +193,14 @@ nav p {
 
 #treat h1 {
     font-size: xx-large;
-    background-color: steelblue;
     margin-left: 1%;
+    background-color: steelblue;
 }
 
 #treat h2 {
     font-size: xx-large;
     background-color: steelblue;
     margin-left: 1%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #treat dl {
@@ -222,7 +211,6 @@ nav p {
 #treat dd {
     margin-bottom: 1%;
     margin-left: 1%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
 }
 
@@ -230,7 +218,6 @@ nav p {
     color: steelblue;
     margin-left: 2%;
     margin-bottom: 1%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;   
 }
 
@@ -255,7 +242,6 @@ nav p {
     margin-left: 3%;
     color: steelblue;
     font-size: x-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #deals h1, #trading h1, #contact h1 {
@@ -271,7 +257,6 @@ footer {
     width: 100%;
     background-color: steelblue;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
     clear: both;
 }
