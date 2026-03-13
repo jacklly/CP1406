@@ -91,6 +91,10 @@ nav p {
     font-size: x-large;
 }
 
+#intro a {
+    background-color: greenyellow;
+}
+
 #announcements {
     margin-right: 1%;
     margin-top: 40px;
@@ -109,6 +113,10 @@ nav p {
     margin-left: 5%;
     margin-right: 2%;
     font-size: x-large;
+}
+
+#announcements a {
+    background-color: greenyellow;
 }
 
 #teaminfo h1 {
