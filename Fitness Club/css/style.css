@@ -44,9 +44,6 @@ header img {
 }
 
 nav {
-    width: 70%;
-    float: right;
-    margin: 5em 3em 0 0;
     padding: 1%;
     margin-bottom: 1%;
 }
@@ -116,7 +113,7 @@ nav ul {
 
 nav li {
     font-size: 1.5em;
-    font-family: 'Francois One', sans-serif;
+    font-family: "Francois One", sans-serif;
     border-top: 1px solid #fff;
 }
 
@@ -152,4 +149,12 @@ footer p a {
     font-size: 1.35em;
     color: #666600;
     font-weight: bold;
+}
+
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
 }
