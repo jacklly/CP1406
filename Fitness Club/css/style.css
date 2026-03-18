@@ -80,6 +80,10 @@ main {
     margin: 0 2%;
 }
 
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px) { /*insert a media query*/
+}
+
 /* #exercises {
     clear: left;
     border-top: 1px solid #000;
