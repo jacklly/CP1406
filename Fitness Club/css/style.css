@@ -82,6 +82,78 @@ main {
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px) { /*insert a media query*/
+
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }    
+
+    /* Tablet Viewport: Style rule for header */
+    header {
+        position: static;
+        padding-bottom: 2%;
+    }
+
+    /* Tablet Viewport: Style rules for nav area */
+    nav li {
+        border-top: none;
+        display: inline-block;
+        border-right: 1px solid #fff;
+    }
+    nav li:last-child {
+        border-right: none;
+    }
+    nav li a {
+        padding: 0.1em 0.75em;
+    }
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px) {
+
+    /* Desktop Viewport: Style rule for header */
+    header {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+    }
+
+    /* Desktop Viewport: Style rules for nav area */
+    nav {
+        float: right;
+        width: 70%;
+        margin: 4em 1em 0 0;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+    nav li {
+        border: none;
+    }
+    nav li a {
+        padding: 0.5em 1em;
+    }
+
+    main {
+        clear: left;
+    }
+    main h1 {
+        font-size: 1.8em;
+    }
+
+    #weights, #cardio, #training
+    {
+        width: 29%;
+        float: left;
+        margin: 0 2%;
+    }
+    #exercises {
+        clear: left;
+    }
 }
 
 /* #exercises {
