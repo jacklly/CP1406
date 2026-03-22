@@ -27,10 +27,14 @@ p,  dl dd, dt, ul, li{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+dt {
+    font-weight: bold;
+}
+
 /*Default setup for phone*/
 body {
-background-color: #5C6B9C;
-width: 100%;
+    background-color: #5C6B9C;
+    width: 100%;
 }
 
 header {
@@ -111,9 +115,12 @@ footer p a {
     border: 2px solid black
 }
 
-#historyimage1 {
-    width: 25%;
-    float: right;
+#history{
+    padding: 1em;
+}
+
+#history img {
+    width: 100%;
 }
 
 #history ul li ul li {
@@ -121,21 +128,26 @@ footer p a {
 }
 
 #team img {
-    width: 40%;
-    height: 40%;
-    float: left;
-    margin: 1em;
+    width: 100%;
+    height: auto;
+}
+
+#training-example img, h1 {
+    max-width: 100%;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 0.75em;
 }
 
 #contact tel-link {
     display: block;
-    align-self: center;
     background-color: #404040;
     padding: 2%;
-    margin: 1%;
     text-align: center;
-    width: 30%;
-    border-radius: 5px;
+    width: 95%;
+
 }
 
 #contact tel-link a {
@@ -158,22 +170,5 @@ footer p a {
         display: none;
     }    
 
-    /* Tablet Viewport: Style rule for header */
-    header {
-        position: static;
-        padding-bottom: 2%;
-    }
-
-    /* Tablet Viewport: Style rules for nav area */
-    nav li {
-        border-top: none;
-        display: inline-block;
-        border-right: 1px solid #fff;
-    }
-    nav li:last-child {
-        border-right: none;
-    }
-    nav li a {
-        padding: 0.1em 0.75em;
-    }
+    
 }
