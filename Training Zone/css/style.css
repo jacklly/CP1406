@@ -31,9 +31,23 @@ dt {
     font-weight: bold;
 }
 
+#contact tel-link {
+    display: block;
+    background-color: #404040;
+    padding: 2%;
+    text-align: center;
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact tel-link a {
+    color: #FFFF00;
+}
+
 footer {
     background-color: #5C6B9C;
     padding: 1%;
+    clear: both;
 }
 
 footer p, footer a {
@@ -149,19 +163,6 @@ nav li a {
     font-size: 0.75em;
 }
 
-#contact tel-link {
-    display: block;
-    background-color: #404040;
-    padding: 2%;
-    text-align: center;
-    width: 95%;
-
-}
-
-#contact tel-link a {
-    color: #FFFF00;
-}
-
 .tablet-desktop {
     display: none;
 }
@@ -243,6 +244,23 @@ main {
 
 #opener p {
     font-size: 2em;
+}
+
+#team img {
+    float: left;
+    max-width: 30%;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+#training-example img {
+    width: 100%;
+}
+
+#history img {
+    float: right;
+    margin-right: 2%;
+    border: 1px solid black;
 }
     
 }
