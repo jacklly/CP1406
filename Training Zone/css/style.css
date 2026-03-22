@@ -21,7 +21,7 @@ h1, h2 {
     color: #000080;
 }
 
-p,  dl dd, dt, ul, li{
+p, dl dd, dt, ul, li{
     color: #000080;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
@@ -31,7 +31,27 @@ dt {
     font-weight: bold;
 }
 
+footer {
+    background-color: #5C6B9C;
+    padding: 1%;
+}
+
+footer p, footer a {
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
 /*Default setup for phone*/
+@media screen and (max-width: 1000px) {
+
 body {
     background-color: #5C6B9C;
     width: 100%;
@@ -92,18 +112,6 @@ nav li a {
     text-decoration: none;
 }
 
-footer p {
-    font-size: 1em;
-    text-align: center;
-    color: #fff;
-    padding: 0 1em;
-}
-
-footer p a {
-    color: #fff;
-    text-decoration: none;
-}
-
 #opener h1 {
     font-size: 2.5em;
     text-align: center;
@@ -158,17 +166,83 @@ footer p a {
     display: none;
 }
 
-/* Media Query for Desktop Viewport */
-@media screen and (min-width: 1000px) { /*insert a media query*/
+}
 
-    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1000px) {
+
     .tablet-desktop {
         display: block;
     }
 
     .mobile {
         display: none;
-    }    
+    }  
+    
+h1, h2 {
+    padding-left: 1%;
+}
 
+p, dl dd, dt, ul, li{
+    padding-left: 1%;
+}
+
+header {
+    align-items: center;
+    width: 20%;
+    height: 250px;
+    display: block;
+    float: left;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #5C6B9C;
+}
+
+header img {
+    height: 250px;
+    max-width: auto;
+}
+
+nav {
+    align-content: center;
+    text-align: center;
+    width: 80%;
+    height: 250px;
+    display: block;
+    float: right;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #5C6B9C;
+}
+
+nav ul{
+    font-family: "Bungee", sans-serif;
+}
+
+nav li {
+    font-family: "Bungee", sans-serif;
+    display: inline-block;
+    font-size: 2em;
+    margin: 5px;
+    background-color: #FFFF00;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+main {
+    clear: both;
+}
+
+#opener h1 {
+    font-size: 3em;
+}
+
+#opener p {
+    font-size: 2em;
+}
     
 }
