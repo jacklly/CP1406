@@ -10,28 +10,49 @@ body, header, nav, main, footer, h1, div, img, ul {
     border: 0;
 }
 
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2 {
+    font-family: "Bungee", sans-serif;
+    color: #000080;
+}
+
+p,  dl dd, dt, ul, li{
+    color: #000080;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*Default setup for phone*/
 body {
 background-color: #5C6B9C;
+width: 100%;
 }
 
 header {
-    width: 25%;
-    float: left;
-    margin: 0 0 1em 0;
+    align-items: center;
+    width: 100%;
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #5C6B9C;
 }
 
-nav {
-    width: 70%;
-    float: left;
-    margin: 5em 3em 0 0;
+header img {
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 
 main {
     background-color: #fff;
     padding: 2%;
-    font-size: 1.25em;
-    clear: left;
+    font-size: 2.5em;
 }
 
 dl {
@@ -39,10 +60,9 @@ dl {
     font-weight: bold;
 }
 
-p, h1, h2, dl dd, ul, li{
-    color: #000080;
-    font-weight: lighter;
-    font-family: monospace;
+nav {
+    width: 100%;
+    clear: both;
 }
 
 nav ul {
@@ -52,10 +72,9 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
-    font-size: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
     font-weight: bold;
+    border: 1px solid black;
 }
 
 nav li a {
@@ -67,6 +86,29 @@ nav li a {
     padding-left: 1em;
     padding-right: 1em;
     text-decoration: none;
+}
+
+footer p {
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#opener h1 {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#opener img {
+    max-width: 100%;
+    border: 2px solid black
 }
 
 #historyimage1 {
@@ -85,23 +127,6 @@ nav li a {
     margin: 1em;
 }
 
-img {
-    max-width: 100%;
-    display: block;
-}
-
-footer p {
-    font-size: 0.75em;
-    text-align: center;
-    color: #fff;
-    padding: 0 1em;
-}
-
-footer p a {
-    color: #fff;
-    text-decoration: none;
-}
-
 #contact tel-link {
     display: block;
     align-self: center;
@@ -117,13 +142,18 @@ footer p a {
     color: #FFFF00;
 }
 
-/* Media Query for Tablet Viewport */
-@media screen and (min-width: 630px) { /*insert a media query*/
+.tablet-desktop {
+    display: none;
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1000px) { /*insert a media query*/
 
     /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
     .tablet-desktop {
         display: block;
     }
+
     .mobile {
         display: none;
     }    
@@ -147,49 +177,3 @@ footer p a {
         padding: 0.1em 0.75em;
     }
 }
-
-/* Media Query for Desktop Viewport */
-@media screen and (min-width: 769px) {
-
-    /* Desktop Viewport: Style rule for header */
-    header {
-        width: 25%;
-        float: left;
-        padding-bottom: 0;
-    }
-
-    /* Desktop Viewport: Style rules for nav area */
-    nav {
-        float: right;
-        width: 70%;
-        margin: 4em 1em 0 0;
-    }
-
-    nav ul {
-        text-align: right;
-    }
-    nav li {
-        border: none;
-    }
-    nav li a {
-        padding: 0.5em 1em;
-    }
-
-    main {
-        clear: left;
-    }
-    main h1 {
-        font-size: 1.8em;
-    }
-
-    #weights, #cardio, #training
-    {
-        width: 29%;
-        float: left;
-        margin: 0 2%;
-    }
-    #exercises {
-        clear: left;
-    }
-}
-
