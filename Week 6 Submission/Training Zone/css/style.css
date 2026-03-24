@@ -1,0 +1,266 @@
+/*
+Author: Jack Kelly
+Date: 19/2/26
+File Name: styles.css
+*/
+
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2 {
+    font-family: "Bungee", sans-serif;
+    color: #000080;
+}
+
+p, dl dd, dt, ul, li{
+    color: #000080;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+dt {
+    font-weight: bold;
+}
+
+#contact tel-link {
+    display: block;
+    background-color: #404040;
+    padding: 2%;
+    text-align: center;
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact tel-link a {
+    color: #FFFF00;
+}
+
+footer {
+    background-color: #5C6B9C;
+    padding: 1%;
+    clear: both;
+}
+
+footer p, footer a {
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+/*Default setup for phone*/
+@media screen and (max-width: 1000px) {
+
+body {
+    background-color: #5C6B9C;
+    width: 100%;
+}
+
+header {
+    align-items: center;
+    width: 100%;
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #5C6B9C;
+}
+
+header img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+main {
+    background-color: #fff;
+    padding: 2%;
+    font-size: 2.5em;
+}
+
+dl {
+    color: #000080;
+    font-weight: bold;
+}
+
+nav {
+    width: 100%;
+    clear: both;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+}
+
+nav li {
+    font-size: 2em;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+nav li a {
+    display: block;
+    color: #FFFF00;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+#opener h1 {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#opener img {
+    max-width: 100%;
+    border: 2px solid black
+}
+
+#history{
+    padding: 1em;
+}
+
+#history img {
+    width: 100%;
+}
+
+#history ul li ul li {
+    margin: 0 0 0 1em;
+}
+
+#team img {
+    width: 100%;
+    height: auto;
+}
+
+#training-example img, h1 {
+    max-width: 100%;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 0.75em;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1000px) {
+
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }  
+    
+h1, h2 {
+    padding-left: 1%;
+}
+
+p, dl dd, dt, ul, li{
+    padding-left: 1%;
+}
+
+header {
+    align-items: center;
+    width: 20%;
+    height: 250px;
+    display: block;
+    float: left;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #5C6B9C;
+}
+
+header img {
+    height: 250px;
+    max-width: auto;
+}
+
+nav {
+    align-content: center;
+    text-align: center;
+    width: 80%;
+    height: 250px;
+    display: block;
+    float: right;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #5C6B9C;
+}
+
+nav ul{
+    font-family: "Bungee", sans-serif;
+}
+
+nav li {
+    font-family: "Bungee", sans-serif;
+    display: inline-block;
+    font-size: 2em;
+    margin: 5px;
+    background-color: #FFFF00;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+main {
+    clear: both;
+}
+
+#opener h1 {
+    font-size: 3em;
+}
+
+#opener p {
+    font-size: 2em;
+}
+
+#team img {
+    float: left;
+    max-width: 30%;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+#training-example img {
+    width: 100%;
+}
+
+#history img {
+    float: right;
+    margin-right: 2%;
+    border: 1px solid black;
+}
+    
+}

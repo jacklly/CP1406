@@ -1,0 +1,236 @@
+/*
+Author: Jack Kelly
+Date: 19/2/26
+File Name: styles.css
+*/
+
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.francois-one-regular {
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-slab-1 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.round {
+    border-radius: 8px;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 190px;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+main {
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.15em;
+    clear: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+.tel-link {
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+.hours {
+    margin-left: 10%;
+}
+
+#weights, #cardio, #training {
+    margin: 0 2%;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px) { /*insert a media query*/
+
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }    
+
+    /* Tablet Viewport: Style rule for header */
+    header {
+        position: static;
+        padding-bottom: 2%;
+    }
+
+    /* Tablet Viewport: Style rules for nav area */
+    nav li {
+        border-top: none;
+        display: inline-block;
+        border-right: 1px solid #fff;
+    }
+    nav li:last-child {
+        border-right: none;
+    }
+    nav li a {
+        padding: 0.1em 0.75em;
+    }
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px) {
+
+    /* Desktop Viewport: Style rule for header */
+    header {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+    }
+
+    /* Desktop Viewport: Style rules for nav area */
+    nav {
+        float: right;
+        width: 70%;
+        margin: 4em 1em 0 0;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+    nav li {
+        border: none;
+    }
+    nav li a {
+        padding: 0.5em 1em;
+    }
+
+    main {
+        clear: left;
+    }
+    main h1 {
+        font-size: 1.8em;
+    }
+
+    #weights, #cardio, #training
+    {
+        width: 29%;
+        float: left;
+        margin: 0 2%;
+    }
+    #exercises {
+        clear: left;
+    }
+}
+
+/* #exercises {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+} */
+
+/* #exercises dt {
+    font-weight: bold;
+} */
+
+/* #exercises dd {
+    padding: 0.5% 1% 2% 0;
+} */
+
+#contact {
+    align-content: center;
+    text-align: center;
+}
+
+#contact a {
+    color: #666600;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.5em;
+    font-family: "Francois One", sans-serif;
+    border-top: 1px solid #fff;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
