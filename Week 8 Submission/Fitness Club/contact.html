@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Jack Kelly -->
+<html lang = "en">
+    <head>
+        <title>
+            Forward Fitness Club
+        </title>
+
+        <meta charset = "utf8">
+
+        <meta name = "viewport" content = "width=device-width, intial-scale=1">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        
+        <link rel = "stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div id = "container">
+
+            <!-- Mobile Nav -->
+            <nav class="mobile-nav">
+                <div id="menu-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>   
+                    <a href="classes.html">Classes</a>
+                    <a href="nutrition.html">Nutrition</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+
+                <a class="menu-icon" onclick="hamburger()">
+                    <div>&#9776;</div>
+                </a>
+            </nav>
+
+            <!-- Use the header area for the website name or logo -->
+            <header>
+                <a href="index.html"> <img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo"> </a>
+            </header>
+
+            <nav class = "tablet-desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="nutrition.html">Nutrition</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <div id = "contact">
+                    <h2>Ready to get started? Contact us today</h2>
+
+                    <tel-link>Call us: <a href = "tel:+8145559608">(814) 555-9608</a></tel-link>
+
+                    <h3>Email us: <a href = "mailto: forwardfitness@club.net">forwardfitness@club.net</a></h3>
+
+                    <h3>Visit us at: 1275 Channel CENTER Street, Coston, MA 02210</h3>
+                </div>
+
+                <div id="form">
+                    <h2>Complete the form below to begin your free trial.</h2>
+                    <form class="form-grid"> <!-- Start Form -->
+                        <fieldset>
+                            <legend>Customer Information</legend>
+                            <label for="fName">First Name:</label>
+                            <input type="text" name="fName" id="fName">
+                            <label for="lName">Last Name:</label>
+                            <input type="text" name="lName" id="lName">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email">
+                            <label for="phone">Phone: </label>
+                            <input type="tel" id="phone" name= "phone">
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Additional Information</legend>
+                            <p>I would like more information about:</p>
+                            <label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Group
+                            Fitness">Group Fitness</label>
+                            <label for="prtrain"><input type="checkbox" name="interest" id="prtrain"
+                            value="Personal Training">Personal Training</label>
+                            <label for="nutr"><input type="checkbox" name="interest" id="nutr"
+                            value="Nutrition">Nutrition</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Referral Source</legend>
+                            <label for="reference">How did you find us?</label>
+                            <select name="reference" id="reference">
+                                <option value="ad">Advertisement</option>
+                                <option value="friend">Friend</option>
+                                <option value="google">Google</option>
+                                <option value="social">Social Media</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="questions"> Questions?</label>
+                            <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+                        </fieldset>
+
+                        <input type="submit" id="submit" value ="Submit" class="btn">
+
+                    </form>
+                </div>
+            </main>
+
+            <footer>
+                <p>
+                    &copy; Copyright 2022. All Rights Reserved.
+                </p>
+
+                <p>
+                    <a href = "mailto: forwardfitness@club.net">forwardfitness@club.net</a>
+                </p>
+            </footer>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
