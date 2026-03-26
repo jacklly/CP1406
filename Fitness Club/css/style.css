@@ -34,40 +34,31 @@ header img {
 	margin: 0 auto;
 }
 
-/* Style rules for navigation area */
-nav {
-	padding: 1%;
-	margin-bottom: 1%;
-}
+/* Style rules for hamburger menu */
 
-nav ul {
-	list-style-type: none;
-	text-align: center;
-}
-
-nav li {
-	font-size: 1.5em;
-	font-family: 'Francois One', sans-serif;
-	border-top: 1px solid #fff; 
-}
-
-nav li:first-child {
-		border-top: none;
-}
-
-nav li a {
-	display: block;
+.mobile-nav a {
 	color: #fff;
-	padding: 0.5em 1em;
-	text-decoration: none;		
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: none;
+	padding: 3%;
+	display: block;
 }
 
-/* Show mobile class, hide tablet-desktop class*/
+.mobile-nav a.menu-icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* Show mobile class, hide tablet-desktop class and menu links id*/
 .mobile {
 	display: block;
 }
 
-.tablet-desktop {
+.tablet-desktop, #menu-links {
 	display: none;
 }
 
@@ -178,7 +169,7 @@ footer p a{
 		display: block;   
 	}
 
-	.mobile {   
+	.mobile, mobile-nav, .mobile-nav a.menu-icon {   
 		display: none;   
 	}
 	
@@ -188,9 +179,22 @@ footer p a{
 	}
 	
 	/* Tablet Viewport: Style rules for nav area */
+
+	nav {
+		padding: 1%;
+		margin-bottom: 1%;
+	}
+
+	nav ul {
+		list-style-type: none;
+		text-align: center;
+	}
+
 	nav li {  
 		display: inline-block; 
 	 	border-right:  1px solid #fff;
+		font-size: 1.5em;
+		font-family: 'Francois One', sans-serif;
 	}
 	
 	nav li:last-child {
@@ -199,6 +203,9 @@ footer p a{
 	
 	nav li a {
 		padding: 0.1em 0.75em;	
+		display: block;
+		color: #fff;
+		text-decoration: none;	
 	}
 	
 	/* Tablet Viewport: Style rules for main content area */
