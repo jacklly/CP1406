@@ -31,36 +31,46 @@
             </nav>
 
             <main>
-                <div id = "contact">
-                    <h1>Contact Info:</h1>
+                <div id = "booking">
+                    <form name="myForm" action="submitted.html" onsubmit="return
+                    validateForm()">
+                        Name: <input type="text" name="name">
+                        Email: <input type="text" name="email">
+                        <input type="submit" value="Submit">
+                    </form>
 
-                    <p>Phone: 07 5111 4488</p>
 
-                    <p>Email: <a href = "mailto:contact@vcareopticals.com.au">contact@vcareopticals.com.au</a></p>
+                    <aside id = "bookingside">
+                        <section>
+                            <h1>Contact Info</h1>
 
-                    <p>Address: 21 Florence Avenue, Razole, Queensland</p>
+                            <p>Phone: <a href = "tel:0751114488">07 5111 4488</a></p>
 
-                    <p>Fax: 07 4567 2288</p>
-                </div>
+                            <p>Email: <a href = "mailto:contact@vcareopticals.com.au">contact@vcareopticals.com.au</a></p>
 
-                <div id = "trading">
-                    <h1>Trading Hours:</h1>
+                            <p>Address: 21 Florence Avenue, Razole, Queensland</p>
 
-                    <p>Monday – Friday: 9:00am – 6:00pm</p>
+                            <p>Fax: 07 4567 2288</p>
+                        </section>
+                        <section>
+                            <h1>Trading Hours</h1>
 
-                    <p>Saturday: 9:00am – 2:00pm</p>
+                            <p>Monday – Friday: 9:00am – 6:00pm</p>
 
-                    <p>Sunday: Closed</p>
-                </div>
+                            <p>Saturday: 9:00am – 2:00pm</p>
 
-                <div id = "deals">
-                    <h1>Current Offers!</h1>
+                            <p>Sunday: Closed</p>
+                        </section>
+                        <section>
+                            <h1>Current Offers!</h1>
 
-                    <h2>First Time Customers:</h2>
-                    <p>20% discount on your first eye examination when booked through email: <a href = "mailto:contact@vcareopticals.com.au">contact@vcareopticals.com.au</a></p>
+                            <h2>First Time Customers:</h2>
+                            <p>20% discount on your first eye examination when booked through email: <a href = "mailto:contact@vcareopticals.com.au">contact@vcareopticals.com.au</a></p>
 
-                    <h2>Returning Customers:</h2>
-                    <p>Enjoy 10% off on your Annual Eye Checkup until May 31st</p>
+                            <h2>Returning Customers:</h2>
+                            <p>Enjoy 10% off on your Annual Eye Checkup until May 31st</p>
+                        </section>
+                    </aside>
                 </div>
             </main>
 
@@ -72,7 +82,7 @@
                     Email us: <a href = "mailto:contact@vcareopticals.com.au">contact@vcareopticals.com.au</a>
                 </p>
                 <p>
-                    Phone: 07 5111 4488
+                    Phone: <a href = "tel:0751114488">07 5111 4488</a>
                 </p>
                 <p>
                     Fax: 07 4567 2288
