@@ -110,40 +110,38 @@ nav p {
 }
 
 #homeinfo section{
-    border: 1px solid black;
     border-radius: 10px;
     display: flex;
-    margin: 10px;
+    margin: 30px;
     background-color: white;
 }
 
-#homeinfo section .sectext{
+#homeinfo .sectext{
     padding: 20px;
     align-self: center;
 }
 
-#homeinfo section .sectext h1 {
+#homeinfo h1 {
     font-size: 2.5em;
 }
 
-#homeinfo section .sectext p  {
+#homeinfo p  {
     font-size: 1.5em;
 }
 
-#homeinfo section .sectext ul  {
+#homeinfo ul  {
     font-size: 1.5em;
     padding-left: 20px;
     padding-top: 20px;
 }
 
-#homeinfo section img{
+#homeinfo img{
     max-width: 40%;
     border-radius: 0 10px 10px 0;
     margin-left: auto;
 }
 
 #freeday {
-    border: 1px solid black;
     border-radius: 10px;
     background-color: white;
     padding: 20px;
@@ -155,37 +153,78 @@ nav p {
     border-bottom: 1px dashed black;
 }
 
-#freeday section ul{
+#freeday ul{
     padding-left: 30px;
 }
 
-#freeday section h1 {
+#freeday h1 {
     font-size: 2.5em;
 }
 
-#freeday section h2 {
+#freeday h2 {
     font-size: 2em;
 }
 
-#freeday section ul, #freeday section p {
+#freeday ul, #freeday p {
     font-size: 1.5em;
+}
+
+#freeday li {
+    margin-bottom: 10px;
 }
 
 #freeday section ul li a{
     color: orangered;
 }
 
-#freeday section dl dt {
+#freeday dt {
     font-size: 1.5em;
     text-decoration: underline;
     margin-bottom: 10px;
 }
 
-#freeday section dl dd {
+#freeday dd {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
+#teaminfo h1 {
+    display: block;
+    text-align: center;
+}
 
+#teaminfo h1 a {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#staff section{
+    border-radius: 10px;
+    display: flex;
+    margin: 30px;
+    background-color: white;
+}
+
+#staff .sectext{
+    padding: 20px;
+    align-self: center;
+}
+
+#staff h2 {
+    font-size: 2.5em;
+}
+
+#staff p {
+    font-size: 1.5em;
+}
+
+#staff img{
+    max-width: 40%;
+    border-radius: 10px 0 0 10px;
+    margin-left: auto;
+}
 
 }
