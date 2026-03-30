@@ -1,0 +1,191 @@
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1, h2, p, a, ul, ol, dl {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bookbutton {
+    display: inline-block;
+    width: auto;
+    margin: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    font-size: medium;
+    clear: both;
+}
+
+footer a {
+    color: orangered;
+}
+
+
+/* Style for mobile */
+
+
+/* Style for PC */
+@media screen and (min-width: 1000px) {
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    height: 200px;
+    float: left;
+    width: 20%;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+header img {
+    margin: 0;
+    max-width: 100%;
+    height: 200px;
+}
+
+nav {
+    border-bottom: 1px solid black;
+    height: 200px;
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    float: right;
+    top: 0;
+    background-color: #fff;
+    width: 80%;
+}
+
+nav ul{
+    width: 80%;
+    list-style-type: none;
+    align-content: center;
+    padding-left: 50px;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bolder;
+}
+
+nav li a {
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+nav p {
+    align-content: center;
+    float: right;
+    width: 20%;
+}
+
+#hero img {
+    width: 100%;
+}
+
+#container {
+    background-color: lightblue;
+}
+
+#homeinfo section{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    background-color: white;
+}
+
+#homeinfo section .sectext{
+    padding: 20px;
+    align-self: center;
+}
+
+#homeinfo section .sectext h1 {
+    font-size: 2.5em;
+}
+
+#homeinfo section .sectext p  {
+    font-size: 1.5em;
+}
+
+#homeinfo section .sectext ul  {
+    font-size: 1.5em;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#homeinfo section img{
+    max-width: 40%;
+    border-radius: 0 10px 10px 0;
+    margin-left: auto;
+}
+
+#freeday {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#freeday section {
+    border-bottom: 1px dashed black;
+}
+
+#freeday section ul{
+    padding-left: 30px;
+}
+
+#freeday section h1 {
+    font-size: 2.5em;
+}
+
+#freeday section h2 {
+    font-size: 2em;
+}
+
+#freeday section ul, #freeday section p {
+    font-size: 1.5em;
+}
+
+#freeday section ul li a{
+    color: orangered;
+}
+
+#freeday section dl dt {
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#freeday section dl dd {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+
+
+}
