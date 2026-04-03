@@ -27,6 +27,32 @@ footer a {
 
 
 /* Style for mobile */
+h1 {
+    font-size: 2.5em;
+    background-color: lightblue;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+}
+
+h2, h3 {
+    font-size: 2.0em;
+    background-color: lightblue;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 40px;
+}
+
+ul {
+    line-height: 40px;
+}
 
 
 /* Style for PC */
@@ -228,12 +254,13 @@ nav p {
 #staff .sectext{
     padding: 20px;
     align-self: center;
+    margin-right: auto;
 }
 
 #staff img{
     max-width: 40%;
     border-radius: 10px 0 0 10px;
-    margin-left: auto;
+    margin-right: auto;
 }
 
 #whyinfo section {
