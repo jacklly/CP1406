@@ -54,44 +54,52 @@
                         <fieldset>
                             <legend>Booking Date & Time</legend>
 
-                            <label for="bookeddate">Select a Date:</label>
-                            <input
-                            type = "date"
-                            id = "bookeddate"
-                            name = "booked-date"
-                            value = "2026-04-01"
-                            min = "2026-04-01"
-                            max = "2027-30-06"/>
+                            <section>
+                                <label for="bookeddate">Select a Date:</label>
+                                <input
+                                type = "date"
+                                id = "bookeddate"
+                                name = "booked-date"
+                                value = "2026-04-01"
+                                min = "2026-04-01"
+                                max = "2027-30-06"/>
+                            </section>
 
-                            <label for="bookedtime">Select a Time:</label>
-                            <input
-                            type = "time"
-                            id = "bookedtime"
-                            name = "booked-time"
-                            value = "09:00"
-                            min = "09:00"
-                            max = "17:45"
-                            />
+                            <section>
+                                <label for="bookedtime">Select a Time:</label>
+                                <input
+                                type = "time"
+                                id = "bookedtime"
+                                name = "booked-time"
+                                value = "09:00"
+                                min = "09:00"
+                                max = "17:45"
+                                />
+                            </section>
                         </fieldset>
 
-                        <p>Please note our hours to the right of the page!</p>
+                        <p>(Please note our hours to the right of the page!)</p>
 
                         <fieldset>
                             <legend>Required Service</legend>
+                            
+                            <section>
+                                <label for="servicepick">Which service do you require?</label>
 
-                            <label for="servicepick">Which service do you require?</label>
+                                <select name = "servicepick" id = "servicepick">
+                                    <option value = "annual">Annual Checkup Package</option>
+                                    <option value = "frame">Personalised Frame Consulatation</option>
+                                    <option value = "referred">Doctor's Certificate Referral</option>
+                                    <option value = "bluelight">Blue Light & Digital Eye Strain Assessment</option>
+                                    <option value = "virtual">Virtual Eye‑Care Consultations (Tele‑Optometry)</option>
+                                    <option value = "other">Other</option>
+                                </select>
+                            </section>
 
-                            <select name = "servicepick" id = "servicepick">
-                                <option value = "annual">Annual Checkup Package</option>
-                                <option value = "frame">Personalised Frame Consulatation</option>
-                                <option value = "referred">Doctor's Certificate Referral</option>
-                                <option value = "bluelight">Blue Light & Digital Eye Strain Assessment</option>
-                                <option value = "virtual">Virtual Eye‑Care Consultations (Tele‑Optometry)</option>
-                                <option value = "other">Other</option>
-                            </select>
-
-                            <label for="comments">Comments Related to Booking:</label>
-                            <textarea id="comments" name="comments" rows="5" cols="35"></textarea>
+                            <section>
+                                <label for="comments">Comments Related to Booking:</label>
+                                <textarea id="comments" name="comments" rows="5" cols="35"></textarea>
+                            </section>
                         </fieldset>
 
                         <input type="submit" id="submit" value ="Submit" class="btn">
