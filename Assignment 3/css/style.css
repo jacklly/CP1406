@@ -324,4 +324,26 @@ nav p {
     border-radius: 0 10px 10px 0;
 }
 
+.form-grid {
+    float: left;
+    width: 70%;
+}
+
+#bookingside {
+    float: right;
+    width: 25%
+}
+
+#bookingside a {
+    color: orangered;
+}
+
+#bookingside section {
+    border-radius: 10px;
+    display: block;
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
 }
