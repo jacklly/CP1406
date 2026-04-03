@@ -1,4 +1,4 @@
-body, header, nav, main, footer, h1, div, img, ul {
+body, header, nav, main, footer, h1, h2, p, div, img, ul {
     margin: 0;
     padding: 0;
     border: 0;
@@ -10,19 +10,6 @@ h1, h2, p, a, ul, ol, dl {
 
 .tablet-desktop{
     display: none;
-}
-
-#bookbutton {
-    display: inline-block;
-    width: auto;
-    margin: 15px;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    background-color: orange;
-    padding: 10px;
-    border-radius: 5px;
 }
 
 footer {
@@ -46,6 +33,47 @@ footer a {
 @media screen and (min-width: 1000px) {
 .tablet-desktop {
     display: block;
+}
+
+h1 {
+    font-size: 2.5em;
+    background-color: lightblue;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 2.0em;
+    background-color: lightblue;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 40px;
+}
+
+ul {
+    line-height: 40px;
+}
+
+#bookbutton {
+    display: inline-block;
+    width: auto;
+    margin: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 header {
@@ -129,14 +157,6 @@ nav p {
     align-self: center;
 }
 
-#homeinfo h1 {
-    font-size: 2.5em;
-}
-
-#homeinfo p  {
-    font-size: 1.5em;
-}
-
 #homeinfo ul  {
     font-size: 1.5em;
     padding-left: 20px;
@@ -163,14 +183,6 @@ nav p {
 
 #freeday ul{
     padding-left: 30px;
-}
-
-#freeday h1 {
-    font-size: 2.5em;
-}
-
-#freeday h2 {
-    font-size: 2em;
 }
 
 #freeday ul, #freeday p {
@@ -233,6 +245,33 @@ nav p {
     max-width: 40%;
     border-radius: 10px 0 0 10px;
     margin-left: auto;
+}
+
+#whyinfo section {
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+#whyinfo dl {
+    font-size: 1.5em;
+    line-height: 40px;
+}
+
+#whyinfo dt {
+    text-decoration: underline;
+}
+
+#whyinfo li a{
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: orangered;
+}
+
+#whyinfo ul {
+    padding-left: 20px;
 }
 
 }
