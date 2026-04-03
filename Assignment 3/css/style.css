@@ -341,7 +341,8 @@ nav p {
     margin: 10px;
 }
 
-.form-grid label {
+.form-grid label, .form-grid option, .form-grid select,
+.form-grid input {
     font-size: 1.5em;
 }
 
@@ -364,6 +365,23 @@ nav p {
     border-radius: 10px;
     font-weight: bold;
     padding: 10px;
+}
+
+.pair {
+    display: flex;
+    align-items: center;
+}
+
+.pair label {
+    width: 11ch;
+}
+
+textarea {
+    display: block;
+    clear: both;
+    width: 100%;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #bookingside {
