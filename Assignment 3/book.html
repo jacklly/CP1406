@@ -10,6 +10,8 @@
         <title>Vcare Opticals - Booking</title>
 
         <link rel="icon" type="image/x-icon" href="images/vcareicon.jpg">
+
+        <script src="javascript/script.js"></script>
     </head>
 
     <body>
@@ -32,7 +34,7 @@
 
             <main>
                 <div id = "booking">
-                    <form class="form-grid">
+                    <form class="form-grid" name = 'bookingform' action="submit.html" onsubmit="return validateForm()">
                         <fieldset>
                             <legend>Customer Information</legend>
 
@@ -68,7 +70,7 @@
                             name = "booked-time"
                             value = "09:00"
                             min = "09:00"
-                            max = "17:00"
+                            max = "17:45"
                             />
                         </fieldset>
 
