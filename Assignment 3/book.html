@@ -14,6 +14,8 @@
         <script src="javascript/form.js"></script>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="javascript/burger.js"></script>
     </head>
 
     <body>
@@ -21,6 +23,20 @@
             <header>
                 <a href="index.html"> <img src="images/vcarelogo.jpg" alt="Vcare Eye Logo"> </a>
             </header>
+
+            <nav class = "mobile">
+                <div id = "burgermenu">
+                    <a href="index.html">Home</a>
+                    <a href="team.html">Your Team</a>   
+                    <a href="why.html">Why Eyecare Matters</a>
+                    <a href="services.html">Services</a>
+                    <a href="book.html">Book Appointment</a>
+                </div>
+
+                <a class="menu-icon" onclick="hamburger()">
+                    <div>&#9776;</div>
+                </a>
+            </nav>
 
             <nav class = 'tablet-desktop'>
                 <ul>
