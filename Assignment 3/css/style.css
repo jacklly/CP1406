@@ -25,6 +25,111 @@ footer a {
     color: orangered;
 }
 
+/* Style for mobile */
+@media screen and (max-width: 449px) {
+
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+#bookbutton {
+    display: block;
+    width: auto;
+    margin: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    background-color: lightblue;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+p, ul, dl {
+    line-height: 30px;
+    font-weight: bold;
+}
+
+dt {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+#container {
+    background-color: lightblue;
+}
+
+#homeinfo section {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#homeinfo .sectext {
+    padding: 10px;
+}
+
+#homeinfo img {
+    border-radius: 0 0 10px 10px;
+    margin-top: auto;
+}
+
+#freeday {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#freeday ul a {
+    color: orangered;
+}
+
+
+}
+
+
+/*style for tablet*/
+@media screen and (min-width: 450px) {
+
+.mobile {
+    display: none;
+}
+
+.tablet-desktop{
+    display: block;
+}
+
+/* Style for PC */
+@media screen and (min-width: 1200px) {
+.desktop {
+    display: block;
+}
+
 #bookbutton {
     display: inline-block;
     width: auto;
@@ -38,53 +143,6 @@ footer a {
     border-radius: 5px;
     text-align: center;
 }
-
-
-/* Style for mobile */
-@media screen and (max-width: 1000px) {
-
-.tablet-desktop {
-    display: none;
-}
-
-h1 {
-    font-size: 2.5em;
-    background-color: lightblue;
-    border-radius: 10px;
-    display: inline-block;
-    padding: 5px;
-    margin: 10px;
-}
-
-h2, h3 {
-    font-size: 2.0em;
-    background-color: lightblue;
-    border-radius: 10px;
-    display: inline-block;
-    padding: 5px;
-    margin: 10px;
-}
-
-p {
-    font-size: 1.5em;
-    line-height: 40px;
-}
-
-ul {
-    line-height: 40px;
-}
-
-img {
-    max-width: 100%;
-}
-
-}
-
-
-/* Style for PC */
-@media screen and (min-width: 1000px) {
-.tablet-desktop {
-    display: block;
 }
 
 h1 {
