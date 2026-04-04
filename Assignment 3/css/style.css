@@ -125,9 +125,10 @@ header img {
 #burgermenu {
     display: none;
     border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
-main {
+#container {
     background-color: lightblue;
 }
 
@@ -157,6 +158,24 @@ main {
     color: orangered;
 }
 
+#teaminfo h1 {
+    display: block;
+    background-color: white;
+}
+
+#staff section {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#staff .sectext {
+    padding: 10px;
+}
+
+#staff img {
+    border-radius: 10px 10px 0 0;
+}
 
 }
 
