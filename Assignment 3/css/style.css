@@ -85,12 +85,12 @@ nav {
 
 .mobile #burgermenu a {
     color: black;
+    font-weight: bold;
 	text-align: center;
 	font-size: 2em;
 	text-decoration: none;
 	padding: 3%;
 	display: block;
-    background-color: lightblue;
     border-radius: 10px;
     margin: 10px;
 }
@@ -103,20 +103,28 @@ a.menu-icon {
     font-size: 3em;
 }
 
+.menubutton {
+    background-color: lightblue;
+}
+
+.menubook {
+    background-color: orange;
+}
+
 header {
     display: block;
     background-color: white;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 header img {
     max-width: 30%;
 }
 
-
-
 #burgermenu {
     display: none;
+    border-bottom: 1px solid black;
 }
 
 main {
