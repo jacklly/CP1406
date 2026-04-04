@@ -276,14 +276,35 @@ section.submitbutton {
     display: none;
 }
 
+.desktop {
+    display: none;
+}
+
 .tablet-desktop{
+    display: flex;
+}
+
+#bookbutton {
     display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 5px;
 }
 
 /* Style for PC */
 @media screen and (min-width: 1200px) {
 .desktop {
-    display: block;
+    display: inline-block;
+}
+
+nav p {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #bookbutton {
