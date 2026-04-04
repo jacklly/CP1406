@@ -79,7 +79,47 @@ ul {
     padding-left: 20px;
 }
 
-#container {
+nav {
+    background-color: white;
+}
+
+.mobile #burgermenu a {
+    color: black;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: none;
+	padding: 3%;
+	display: block;
+    background-color: lightblue;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+a.menu-icon {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+    font-size: 3em;
+}
+
+header {
+    display: block;
+    background-color: white;
+    text-align: center;
+}
+
+header img {
+    max-width: 30%;
+}
+
+
+
+#burgermenu {
+    display: none;
+}
+
+main {
     background-color: lightblue;
 }
 
