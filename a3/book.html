@@ -56,6 +56,16 @@
                         <fieldset>
                             <legend>Customer Information</legend>
 
+                            <section class = 'radiocheck'>
+                                <label for="themselves">I'm booking for me</label><br>
+                                <input type="radio" id="themselves" name="whofor" value="themselves">
+                            </section>
+
+                            <section class = 'radiocheck'> 
+                                <label for="dependent">I'm booking for a dependent</label><br>
+                                <input type="radio" id="dependent" name="whofor" value="dependent">
+                            </section>
+
                             <section class = 'pair'>
                                 <label for = "fName">First Name:</label>
                                 <input type = "text" name="fName" id="fName">
@@ -124,6 +134,7 @@
                                 <textarea id="comments" name="comments" rows="5" cols="35"></textarea>
                             </section>
                         </fieldset>
+                        
                         <section class = "submitbutton">
                             <input type="submit" id="submit" value ="Submit Form" class="btn">
                         </section>

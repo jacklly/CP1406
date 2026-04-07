@@ -650,6 +650,10 @@ nav p {
     width: 11ch;
 }
 
+.radiocheck {
+    display: flex;
+}
+
 textarea {
     display: block;
     clear: both;
