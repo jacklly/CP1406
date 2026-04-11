@@ -41,7 +41,7 @@ footer a {
 }
 
 
-#bookbutton {
+.bookbutton {
     display: block;
     width: auto;
     margin: 15px;
@@ -296,7 +296,7 @@ section.submitbutton {
     display: flex;
 }
 
-#bookbutton {
+.bookbutton {
     display: block;
     font-weight: bold;
     text-decoration: none;
@@ -334,7 +334,7 @@ color: orangered;
 }
 }
 
-#bookbutton {
+.bookbutton {
     display: inline-block;
     width: auto;
     margin: 15px;
