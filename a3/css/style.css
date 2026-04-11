@@ -40,6 +40,7 @@ footer a {
     display: none;
 }
 
+
 #bookbutton {
     display: block;
     width: auto;
@@ -266,6 +267,13 @@ section.submitbutton {
     padding: 10px;
 }
 
+
+.offer {
+    background-color: orange;
+    padding: 2px;
+    border-radius: 3px;
+}
+
 }
 
 
@@ -300,6 +308,12 @@ section.submitbutton {
     margin-right: 5px;
 }
 
+.offer {
+    background-color: orange;
+    padding: 2px;
+    border-radius: 3px;
+}
+
 /* Style for PC */
 @media screen and (min-width: 1200px) {
 .nottablet {
@@ -310,9 +324,14 @@ section.submitbutton {
     display: inline-block;
 }
 
-nav p {
-    margin-top: 30px;
-    margin-bottom: 30px;
+nav p span {
+    font-size: 0.8em;
+    line-height: 20px;
+}
+
+nav p span a {
+color: orangered;
+}
 }
 
 #bookbutton {
@@ -456,7 +475,7 @@ ul {
     }
 
     nav ul{
-        width: 80%;
+        width: 75%;
         list-style-type: none;
         align-content: center;
         padding-left: 50px;
@@ -483,7 +502,7 @@ ul {
     nav p {
         align-content: center;
         float: right;
-        width: 20%;
+        width: 25%;
     }
 }
 
