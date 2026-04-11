@@ -347,7 +347,7 @@ color: orangered;
     border-radius: 5px;
     text-align: center;
 }
-}
+
 
 h1 {
     font-size: 2.5em;
@@ -819,5 +819,4 @@ textarea {
 #submitted {
     text-align: center;
 }
-
 }
