@@ -576,7 +576,7 @@ ul {
 }
 
 #teaminfo h1 {
-    display: block;
+    display: inline-block;
     text-align: center;
 }
 
@@ -586,6 +586,7 @@ ul {
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
+    margin-left: 50px;
 }
 
 #staff section{
