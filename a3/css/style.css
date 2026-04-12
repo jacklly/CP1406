@@ -28,251 +28,251 @@ footer a {
 /* Style for mobile */
 @media screen and (max-width: 449px) {
 
-.mobile {
-    display: block;
-}
+    .mobile {
+        display: block;
+    }
 
-.tablet-desktop {
-    display: none;
-}
+    .tablet-desktop {
+        display: none;
+    }
 
-.desktop {
-    display: none;
-}
-
-
-.bookbutton {
-    display: block;
-    width: auto;
-    margin: 15px;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    background-color: orange;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-img {
-    max-width: 100%;
-}
-
-h1, h2, h3 {
-    background-color: lightblue;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-
-p, ul, dl {
-    line-height: 30px;
-    font-weight: bold;
-}
-
-dt {
-    text-decoration: underline;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-nav {
-    background-color: white;
-}
-
-.mobile #burgermenu a {
-    color: black;
-    font-weight: bold;
-	text-align: center;
-	font-size: 2em;
-	text-decoration: none;
-	padding: 3%;
-	display: block;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-a.menu-icon {
-	display: inline-block;
-	position: absolute;
-	right: 0;
-	top: 0;
-    font-size: 3em;
-}
-
-.menubutton {
-    background-color: lightblue;
-}
-
-.menubook {
-    background-color: orange;
-}
-
-header {
-    display: block;
-    background-color: white;
-    text-align: center;
-    border-bottom: 1px solid black;
-}
-
-header img {
-    max-width: 30%;
-}
-
-#burgermenu {
-    display: none;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-}
-
-#container {
-    background-color: lightblue;
-}
-
-#homeinfo section {
-    background-color: white;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-#homeinfo .sectext {
-    padding: 10px;
-}
-
-#homeinfo img {
-    border-radius: 0 0 10px 10px;
-    margin-top: auto;
-}
-
-#freeday {
-    background-color: white;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-}
-
-#freeday ul a {
-    color: orangered;
-}
-
-#teaminfo h1 {
-    display: block;
-    background-color: white;
-}
-
-#staff section {
-    background-color: white;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-#staff .sectext {
-    padding: 10px;
-}
-
-#staff img {
-    border-radius: 10px 10px 0 0;
-}
-
-#whyinfo section {
-    background-color: white;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-}
-
-#whyinfooutro a {
-    color: orangered;
-}
-
-#serviceintro .sectext {
-    background-color: white;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-}
-
-#services {
-    background-color: white;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-}
-
-#newservices {
-    background-color: white;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-}
-
-#newservices section section {
-    border: 1px solid black;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-#newservices .sectext {
-    padding: 10px;
-}
-
-#newservices img {
-    border-radius: 0 0 10px 10px;
-}
-
-#booking {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-fieldset {
-    max-width: 100%;
-    border-radius: 10px;
-    border: none;
-    background-color: white;
-    margin: 10px;
-    text-align: center;
-}
-
-legend {
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.pair {
-    display: flex;
-    align-items: center;
-}
-
-.pair label {
-    width: 11ch;
-}
-
-section.submitbutton {
-    display: block;
-    text-align: center;
-}
-
-.btn {
-    border-radius: 10px;
-    font-size: 1em;
-    font-weight: bold;
-    background-color: orange;
-    padding: 10px;
-}
+    .desktop {
+        display: none;
+    }
 
 
-.offer {
-    background-color: orange;
-    padding: 2px;
-    border-radius: 3px;
-}
+    a.bookbutton {
+        display: block;
+        width: auto;
+        margin: 15px;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        background-color: orange;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    h1, h2, h3 {
+        background-color: lightblue;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    p, ul, dl {
+        line-height: 30px;
+        font-weight: bold;
+    }
+
+    dt {
+        text-decoration: underline;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    nav {
+        background-color: white;
+    }
+
+    .mobile #burgermenu a {
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        font-size: 2em;
+        text-decoration: none;
+        padding: 3%;
+        display: block;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    a.menu-icon {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 3em;
+    }
+
+    .menubutton {
+        background-color: lightblue;
+    }
+
+    .menubook {
+        background-color: orange;
+    }
+
+    header {
+        display: block;
+        background-color: white;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+
+    header img {
+        max-width: 30%;
+    }
+
+    #burgermenu {
+        display: none;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    #container {
+        background-color: lightblue;
+    }
+
+    #homeinfo section {
+        background-color: white;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    #homeinfo .sectext {
+        padding: 10px;
+    }
+
+    #homeinfo img {
+        border-radius: 0 0 10px 10px;
+        margin-top: auto;
+    }
+
+    #freeday {
+        background-color: white;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #freeday ul a {
+        color: orangered;
+    }
+
+    #teaminfo h1 {
+        display: block;
+        background-color: white;
+    }
+
+    #staff section {
+        background-color: white;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    #staff .sectext {
+        padding: 10px;
+    }
+
+    #staff img {
+        border-radius: 10px 10px 0 0;
+    }
+
+    #whyinfo section {
+        background-color: white;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #whyinfooutro a {
+        color: orangered;
+    }
+
+    #serviceintro .sectext {
+        background-color: white;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #services {
+        background-color: white;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #newservices {
+        background-color: white;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #newservices section section {
+        border: 1px solid black;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    #newservices .sectext {
+        padding: 10px;
+    }
+
+    #newservices img {
+        border-radius: 0 0 10px 10px;
+    }
+
+    #booking {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    fieldset {
+        max-width: 100%;
+        border-radius: 10px;
+        border: none;
+        background-color: white;
+        margin: 10px;
+        text-align: center;
+    }
+
+    legend {
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .pair {
+        display: flex;
+        align-items: center;
+    }
+
+    .pair label {
+        width: 11ch;
+    }
+
+    section.submitbutton {
+        display: block;
+        text-align: center;
+    }
+
+    .btn {
+        border-radius: 10px;
+        font-size: 1em;
+        font-weight: bold;
+        background-color: orange;
+        padding: 10px;
+    }
+
+
+    .offer {
+        background-color: orange;
+        padding: 2px;
+        border-radius: 3px;
+    }
 
 }
 
@@ -280,568 +280,534 @@ section.submitbutton {
 /*style for tablet*/
 @media screen and (min-width: 450px) {
 
-.mobile {
-    display: none;
-}
-
-.nottablet {
-    display: none;
-}
-
-.desktop {
-    display: none;
-}
-
-.tablet-desktop{
-    display: flex;
-}
-
-.bookbutton {
-    display: block;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    background-color: orange;
-    padding: 5px;
-    border-radius: 5px;
-    text-align: center;
-    margin-right: 5px;
-}
-
-.offer {
-    background-color: orange;
-    padding: 2px;
-    border-radius: 3px;
-}
-
-/* Style for PC */
-@media screen and (min-width: 1200px) {
-.nottablet {
-    display: block;
-}
-
-.desktop {
-    display: inline-block;
-}
-
-nav p span {
-    font-size: 0.8em;
-    line-height: 20px;
-}
-
-nav p span a {
-color: orangered;
-}
-}
-
-/*Bookbutton for tablet*/
-@media (max-width: 1199px){
-
-p.bookbutton {
-    display: inline-block;
-    width: auto;
-    margin: 15px;
-    font-size: 0.1em;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    background-color: orange;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-}
-
-/*Bookbutton for desktop*/
-@media (max-width: 1199px){
-
-p.bookbutton {
-    display: inline-block;
-    width: auto;
-    margin: 15px;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    background-color: orange;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-}
-
-
-h1 {
-    font-size: 2.5em;
-    background-color: lightblue;
-    border-radius: 10px;
-    display: inline-block;
-    padding: 5px;
-    margin: 10px;
-}
-
-h2, h3 {
-    font-size: 2.0em;
-    background-color: lightblue;
-    border-radius: 10px;
-    display: inline-block;
-    padding: 5px;
-    margin: 10px;
-}
-
-p {
-    font-size: 1.5em;
-    line-height: 40px;
-}
-
-ul {
-    line-height: 40px;
-}
-
-/*Header and nav for tablet*/
-@media (max-width: 1199px){
-
-    header {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-        background-color: #fff;
-        height: 200px;
-        float: left;
-        width: 40%;
-        display: block;
+    .mobile {
+        display: none;
     }
 
-    header img {
-        margin: 0;
-        width: 100%;
-        height: 230px;
-        border-bottom: 1px solid black;
+    .nottablet {
+        display: none;
     }
 
-    nav {
-        border-bottom: 1px solid black;
-        height: 230px;
-        position: -webkit-sticky;
-        position: sticky;
+    .desktop {
+        display: none;
+    }
+
+    .tablet-desktop{
         display: flex;
-        float: right;
-        top: 0;
-        background-color: #fff;
-        width: 60%;
     }
 
-    nav ul{
-        width: 67%;
-        list-style-type: none;
-        align-content: center;
-        text-align: center;
-        padding-left: 50px;
-    }
-
-    nav li {
-        display: block;
-        font-size: 1em;
+    a.bookbutton {
+        display: inline-block;
+        font-weight: bold;
+        text-decoration: none;
         color: black;
-        font-weight: bolder;
-        margin: 3px;
+        background-color: orange;
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        margin-right: 5px;
+    }
+
+    .offer {
+        background-color: orange;
+        padding: 2px;
+        border-radius: 3px;
+    }
+
+    /* Style for PC */
+    @media screen and (min-width: 1200px) {
+        .nottablet {
+            display: block;
+        }
+
+        .desktop {
+            display: inline-block;
+        }
+
+        nav p span {
+            font-size: 0.8em;
+            line-height: 20px;
+        }
+
+        nav p span a {
+        color: orangered;
+        }
+
+        a.bookbutton {
+            font-size: 1.5em;
+            padding: 10px;
+        }    
+    }
+
+    h1 {
+        font-size: 2.5em;
+        background-color: lightblue;
+        border-radius: 10px;
+        display: inline-block;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    h2, h3 {
+        font-size: 2.0em;
+        background-color: lightblue;
+        border-radius: 10px;
+        display: inline-block;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    p {
+        font-size: 1.5em;
+        line-height: 40px;
+    }
+
+    ul {
+        line-height: 40px;
+    }
+
+    /*Header and nav for tablet*/
+    @media (max-width: 1199px){
+
+        header {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            height: 200px;
+            float: left;
+            width: 40%;
+            display: block;
+        }
+
+        header img {
+            margin: 0;
+            width: 100%;
+            height: 230px;
+            border-bottom: 1px solid black;
+        }
+
+        nav {
+            border-bottom: 1px solid black;
+            height: 230px;
+            position: -webkit-sticky;
+            position: sticky;
+            display: flex;
+            float: right;
+            top: 0;
+            background-color: #fff;
+            width: 60%;
+        }
+
+        nav ul{
+            width: 67%;
+            list-style-type: none;
+            align-content: center;
+            text-align: center;
+            padding-left: 50px;
+        }
+
+        nav li {
+            display: block;
+            font-size: 1em;
+            color: black;
+            font-weight: bolder;
+            margin: 3px;
+            border-radius: 10px;
+        }
+
+        nav li a {
+            display: block;
+            background-color: lightblue;
+            border-radius: 5px;
+            color: black;
+            text-decoration: none;
+        }
+
+        nav p {
+            align-content: center;
+            float: right;
+            width: 33%;
+        }
+
+    }
+
+    /*Header and nav for desktop*/
+    @media (min-width: 1200px){
+        header {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            height: 200px;
+            float: left;
+            width: 20%;
+            display: flex;
+            border-bottom: 1px solid black;
+        }
+
+        header img {
+            margin: 0;
+            max-width: 100%;
+            height: 200px;
+        }
+
+        nav {
+            border-bottom: 1px solid black;
+            height: 200px;
+            position: -webkit-sticky;
+            position: sticky;
+            display: flex;
+            float: right;
+            top: 0;
+            background-color: #fff;
+            width: 80%;
+        }
+
+        nav ul{
+            width: 75%;
+            list-style-type: none;
+            align-content: center;
+            padding-left: 50px;
+        }
+
+        nav li {
+            display: inline-block;
+            font-size: 1.5em;
+            color: black;
+            font-weight: bolder;
+        }
+
+        nav li a {
+            background-color: lightblue;
+            border-radius: 5px;
+            color: black;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            padding-left: 1em;
+            padding-right: 1em;
+            text-decoration: none;
+        }
+
+        nav p {
+            align-content: center;
+            float: right;
+            width: 25%;
+        }
+    }
+
+
+    #hero img {
+        width: 100%;
+    }
+
+    #container {
+        background-color: lightblue;
+    }
+
+    #homeinfo section{
+        border-radius: 10px;
+        display: flex;
+        margin: 30px;
+        background-color: white;
+    }
+
+    #homeinfo .sectext{
+        padding: 20px;
+        align-self: center;
+    }
+
+    #homeinfo ul  {
+        font-size: 1.5em;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    #homeinfo img{
+        max-width: 40%;
+        border-radius: 0 10px 10px 0;
+        margin-left: auto;
+    }
+
+    #freeday {
+        border-radius: 10px;
+        background-color: white;
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #freeday section {
+        border-bottom: 1px dashed black;
+    }
+
+    #freeday ul{
+        padding-left: 30px;
+        font-size: 1.5em;
+    }
+
+    #freeday li {
+        margin-bottom: 10px;
+    }
+
+    #freeday section ul li a{
+        color: orangered;
+    }
+
+    #freeday dt {
+        font-size: 1.5em;
+        text-decoration: underline;
+        margin-bottom: 10px;
+    }
+
+    #freeday dd {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    #teaminfo h1 {
+        display: inline-block;
+        text-align: center;
+    }
+
+    #teaminfo h1 a {
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    #staff section{
+        border-radius: 10px;
+        display: flex;
+        margin: 30px;
+        background-color: white;
+    }
+
+    #staff .sectext{
+        padding: 20px;
+        align-self: center;
+        margin-right: auto;
+    }
+
+    #staff img{
+        max-width: 40%;
+        border-radius: 10px 0 0 10px;
+        margin-right: auto;
+    }
+
+    #whyinfo section {
+        display: inline-block;
+        border-radius: 10px;
+        margin: 10px;
+        background-color: white;
+        padding: 20px;
+    }
+
+    #whyinfo dl {
+        font-size: 1.5em;
+        line-height: 40px;
+    }
+
+    #whyinfo dt {
+        text-decoration: underline;
+    }
+
+    #whyinfo li a{
+        font-size: 1.5em;
+        text-decoration: underline;
+        color: orangered;
+    }
+
+    #whyinfo ul {
+        padding-left: 20px;
+    }
+
+    #serviceintro, #newservices {
+        border-radius: 10px;
+        display: inline-block;
+        margin: 10px;
+        background-color: white;
+    }
+
+    #services {
+        border-radius: 10px;
+        display: block;
+        margin: 10px;
+        background-color: white;
+        padding: 20px;
+    }
+
+    @media (min-width: 1200px){
+        #serviceintro .sectext {
+            padding: 20px;
+            align-content: center;
+            float: right;
+            width: 55%;
+        }  
+
+        #serviceintro img {
+            float: left;
+            max-width: 40%;
+            border-radius: 10px 0 0 10px;
+        }
+    }  
+
+    @media (max-width: 1199px){
+        #serviceintro .sectext {
+            padding: 20px;
+            align-content: center;
+            float: right;
+            width: 95%;
+        }  
+
+        #serviceintro img {
+            float: left;
+            width: 100%;
+            border-radius: 10px 10px 0 0 ;
+        }
+    }  
+
+    #services dl {
+        font-size: 1.5em;
+        line-height: 40px;
+    }
+
+    #services dt {
+        text-decoration: underline;
+    }
+
+    #newservices section{
+        display: inline-block;
+    }
+
+    #newservices section section {
+        display: flex;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    @media (max-width: 1199px) {
+        #newservices .sectext {
+            padding: 20px;
+            align-self: center;
+            float: left;
+            width: 100%;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #newservices .sectext {
+            padding: 20px;
+            align-self: center;
+            float: left;
+            width: 55%;
+        }
+    }
+
+    #newservices img {
+        margin-left: auto;
+        max-width: 40%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    @media (max-width: 1199px) {
+        .form-grid {
+            width: 92%;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .form-grid {
+            width: 70%;
+        }
+    }
+
+
+    .form-grid {
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .form-grid fieldset {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .form-grid label, .form-grid option, .form-grid select,
+    .form-grid input {
+        font-size: 1.5em;
+    }
+
+    .form-grid legend {
+        font-size: 2.0em;
+        background-color: lightblue;
+        padding: 10px;
         border-radius: 10px;
     }
 
-    nav li a {
-        display: block;
-        background-color: lightblue;
-        border-radius: 5px;
-        color: black;
-        text-decoration: none;
+    .form-grid section {
+        clear: both;
+        margin: 20px;
     }
 
-    nav p {
-        align-content: center;
-        float: right;
-        width: 33%;
-    }
-
-}
-
-/*Header and nav for desktop*/
-@media (min-width: 1200px){
-    header {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-        background-color: #fff;
-        height: 200px;
-        float: left;
-        width: 20%;
-        display: flex;
-        border-bottom: 1px solid black;
-    }
-
-    header img {
-        margin: 0;
-        max-width: 100%;
-        height: 200px;
-    }
-
-    nav {
-        border-bottom: 1px solid black;
-        height: 200px;
-        position: -webkit-sticky;
-        position: sticky;
-        display: flex;
-        float: right;
-        top: 0;
-        background-color: #fff;
-        width: 80%;
-    }
-
-    nav ul{
-        width: 75%;
-        list-style-type: none;
-        align-content: center;
-        padding-left: 50px;
-    }
-
-    nav li {
-        display: inline-block;
+    .form-grid #submit {
+        margin-left: 40px;
         font-size: 1.5em;
-        color: black;
-        font-weight: bolder;
+        background-color: orange;
+        border-radius: 10px;
+        font-weight: bold;
+        padding: 10px;
     }
 
-    nav li a {
-        background-color: lightblue;
-        border-radius: 5px;
-        color: black;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        padding-left: 1em;
-        padding-right: 1em;
-        text-decoration: none;
+    .pair {
+        display: flex;
+        align-items: center;
     }
 
-    nav p {
-        align-content: center;
+    .pair label {
+        width: 11ch;
+    }
+
+    .radiocheck {
+        display: flex;
+    }
+
+    textarea {
+        display: block;
+        clear: both;
+        width: 100%;
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #bookingside {
         float: right;
         width: 25%;
     }
-}
 
+    #bookingside a {
+        color: orangered;
+    }
 
-#hero img {
-    width: 100%;
-}
-
-#container {
-    background-color: lightblue;
-}
-
-#homeinfo section{
-    border-radius: 10px;
-    display: flex;
-    margin: 30px;
-    background-color: white;
-}
-
-#homeinfo .sectext{
-    padding: 20px;
-    align-self: center;
-}
-
-#homeinfo ul  {
-    font-size: 1.5em;
-    padding-left: 20px;
-    padding-top: 20px;
-}
-
-#homeinfo img{
-    max-width: 40%;
-    border-radius: 0 10px 10px 0;
-    margin-left: auto;
-}
-
-#freeday {
-    border-radius: 10px;
-    background-color: white;
-    padding: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#freeday section {
-    border-bottom: 1px dashed black;
-}
-
-#freeday ul{
-    padding-left: 30px;
-    font-size: 1.5em;
-}
-
-#freeday li {
-    margin-bottom: 10px;
-}
-
-#freeday section ul li a{
-    color: orangered;
-}
-
-#freeday dt {
-    font-size: 1.5em;
-    text-decoration: underline;
-    margin-bottom: 10px;
-}
-
-#freeday dd {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-#teaminfo h1 {
-    display: inline-block;
-    text-align: center;
-}
-
-#teaminfo h1 a {
-    display: inline-block;
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: 50px;
-}
-
-#staff section{
-    border-radius: 10px;
-    display: flex;
-    margin: 30px;
-    background-color: white;
-}
-
-#staff .sectext{
-    padding: 20px;
-    align-self: center;
-    margin-right: auto;
-}
-
-#staff img{
-    max-width: 40%;
-    border-radius: 10px 0 0 10px;
-    margin-right: auto;
-}
-
-#whyinfo section {
-    display: inline-block;
-    border-radius: 10px;
-    margin: 10px;
-    background-color: white;
-    padding: 20px;
-}
-
-#whyinfo dl {
-    font-size: 1.5em;
-    line-height: 40px;
-}
-
-#whyinfo dt {
-    text-decoration: underline;
-}
-
-#whyinfo li a{
-    font-size: 1.5em;
-    text-decoration: underline;
-    color: orangered;
-}
-
-#whyinfo ul {
-    padding-left: 20px;
-}
-
-#serviceintro, #newservices {
-    border-radius: 10px;
-    display: inline-block;
-    margin: 10px;
-    background-color: white;
-}
-
-#services {
-    border-radius: 10px;
-    display: block;
-    margin: 10px;
-    background-color: white;
-    padding: 20px;
-}
-
-@media (min-width: 1200px){
-    #serviceintro .sectext {
+    #bookingside section {
+        border-radius: 10px;
+        display: block;
+        margin: 10px;
+        background-color: white;
         padding: 20px;
-        align-content: center;
-        float: right;
-        width: 55%;
-    }  
-
-    #serviceintro img {
-        float: left;
-        max-width: 40%;
-        border-radius: 10px 0 0 10px;
     }
-}  
 
-@media (max-width: 1199px){
-    #serviceintro .sectext {
-        padding: 20px;
-        align-content: center;
-        float: right;
-        width: 95%;
-    }  
-
-    #serviceintro img {
-        float: left;
-        width: 100%;
-        border-radius: 10px 10px 0 0 ;
+    #submitted {
+        text-align: center;
     }
-}  
-
-#services dl {
-    font-size: 1.5em;
-    line-height: 40px;
-}
-
-#services dt {
-    text-decoration: underline;
-}
-
-#newservices section{
-    display: inline-block;
-}
-
-#newservices section section {
-    display: flex;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-@media (max-width: 1199px) {
-    #newservices .sectext {
-        padding: 20px;
-        align-self: center;
-        float: left;
-        width: 100%;
-    }
-}
-
-@media (min-width: 1200px) {
-    #newservices .sectext {
-        padding: 20px;
-        align-self: center;
-        float: left;
-        width: 55%;
-    }
-}
-
-#newservices img {
-    margin-left: auto;
-    max-width: 40%;
-    border-radius: 0 10px 10px 0;
-}
-
-@media (max-width: 1199px) {
-    .form-grid {
-        width: 92%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .form-grid {
-        width: 70%;
-    }
-}
-
-
-.form-grid {
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-}
-
-.form-grid fieldset {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-}
-
-.form-grid label, .form-grid option, .form-grid select,
-.form-grid input {
-    font-size: 1.5em;
-}
-
-.form-grid legend {
-    font-size: 2.0em;
-    background-color: lightblue;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.form-grid section {
-    clear: both;
-    margin: 20px;
-}
-
-.form-grid #submit {
-    margin-left: 40px;
-    font-size: 1.5em;
-    background-color: orange;
-    border-radius: 10px;
-    font-weight: bold;
-    padding: 10px;
-}
-
-.pair {
-    display: flex;
-    align-items: center;
-}
-
-.pair label {
-    width: 11ch;
-}
-
-.radiocheck {
-    display: flex;
-}
-
-textarea {
-    display: block;
-    clear: both;
-    width: 100%;
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#bookingside {
-    float: right;
-    width: 25%;
-}
-
-#bookingside a {
-    color: orangered;
-}
-
-#bookingside section {
-    border-radius: 10px;
-    display: block;
-    margin: 10px;
-    background-color: white;
-    padding: 20px;
-}
-
-#submitted {
-    text-align: center;
-}
 }
