@@ -334,7 +334,29 @@ color: orangered;
 }
 }
 
-.bookbutton {
+/*Bookbutton for tablet*/
+@media (max-width: 1199px){
+
+p.bookbutton {
+    display: inline-block;
+    width: auto;
+    margin: 15px;
+    font-size: 0.1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+}
+
+/*Bookbutton for desktop*/
+@media (max-width: 1199px){
+
+p.bookbutton {
     display: inline-block;
     width: auto;
     margin: 15px;
@@ -346,6 +368,8 @@ color: orangered;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
+}
+
 }
 
 
@@ -675,7 +699,7 @@ ul {
 
     #serviceintro img {
         float: left;
-        max-width: 100%;
+        width: 100%;
         border-radius: 10px 10px 0 0 ;
     }
 }  
